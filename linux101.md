@@ -56,6 +56,8 @@ Une fois la commande terminée, vous perdez vos droits. Pas de risque de faire d
 N'oubliez juste pas qu'un grand pouvoir implique de grandes responsabilités.
 Mais sinon ça me va.
 
+Pour notre exemple, ça donnerait `sudo yum install dofus`
+
 ##### Devenir root
 
 Si vous faites `su`, et que vous rentrez le mot de passe de root (pas votre mot de passe hein, celui de root), et bien vous devenez root.
