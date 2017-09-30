@@ -30,3 +30,36 @@ Certains paquets, par contre, ne seront pas sur un dépot, mais proposés ailleu
 Oui mais non. Sèche tes larmes. Linux se veut Open Source, et il en va de même pour beaucoup de logiciels. Du coup la plupart des logiciels sont déjà dans un paquet au bon format, sinon, rien ne t'empêche de le compiler toi même.
 Regarde les GitHub des projets correspondants. Souvent, ils ont un tuto d'installation/de compilation. Et puis même si il est pas "installé", rien ne t'empêche de prendre un binaire compilé et de le lancer d'où tu veux (comme tu lancerai un fichier .exe depuis ton bureau par exemple)
 Et sinon, si tu aime la magie noir, il y a `alien`, qui permet de convertir les paquets d'un format à l'autre, mais c'est un peu buggé. Mais ça existe.
+
+# Sur ma root
+
+## On m'a dit que j'étais root! Mais c'est quoi en fait?
+
+Non. C'est faux. Tu n'est pas root. Déjà, mettons les choses au clair. root est une personne. Un utilisateur. Et cet utilisateur, sur Linux, il est special. Parce qu'il a TOUT les droits. Vraiment tous. Et en *permanence*. C'est l'administrateur de la machine. Il fait ce qu'il veux, sans contrôle.
+Vous, vous êtes pas root. Vous êtes juste administrateurs. Vous avez toujours tout les droits, mais pas tout le temps.
+
+## Mais moi, si je veux être root, je peux?
+
+Non.
+
+## Bon très bien. Mais on est admin du coup, ça change quoi?
+
+On va prendre un exemple simple. Vous voulez installer Dofus sur votre machine.
+root, lui, il a juste à faire `yum install dofus`.
+Vous, si vous faite ça, on vous dit non. Parce que vous avez pas les bon privilèges.
+Pour ça, deux moyen s'offre à vous:
+
+##### S'élever au rang d'admin
+
+La version propre. Vous faite `sudo`, suivi de votre commande. Il se peut qu'il demande votre mot de passe, pour des raisons de sécurité.
+Une fois la commande terminée, vous perdez vos droits. Pas de risque de faire des bêtises.
+N'oubliez juste pas qu'un grand pouvoir implique de grandes responsabilités.
+Mais sinon ça me va.
+
+##### Devenir root
+
+Si vous faites `su`, et que vous rentrez le mot de passe de root (pas votre mot de passe hein, celui de root), et bien vous devenez root.
+Sinon, vous pouvez faire `sudo -s`, et cette fois-ci, c'est votre mot de passe. Et vous devenez root.
+
+Si vous faites ça, je viens chez vous, je crame votre maison avec votre famille à l'intérieur, je vous retrouve vous, je vous crève les yeux, et je vous fait manger votre clavier par l'anus. Une lettre à la fois.
+J'ai été clair?
