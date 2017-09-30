@@ -65,3 +65,21 @@ Sinon, vous pouvez faire `sudo -s`, et cette fois-ci, c'est votre mot de passe. 
 
 Si vous faites ça, je viens chez vous, je crame votre maison avec votre famille à l'intérieur, je vous retrouve vous, je vous crève les yeux, et je vous fait manger votre clavier par l'anus. Une lettre à la fois.
 J'ai été clair?
+
+# C'est mon choix
+
+## Tout le monde me dit d'installer i3. C'est quoi?
+
+i3, c'est une interface. L'intérêt de Linux, c'est qu'on peux choisir ce qu'on veux. L'interface par défaut fourni par le bocal, c'est `Xfce`. i3, c'est une autre interface, qui s'utilise différement, mais qui as pour objectif la même chose: Afficher des trucs sur ton écran autrement que par un grand terminal.
+
+## NEEEED!!!
+
+Hop hop hop. Premièrement, si le bocal à mis Xfce, c'est parce que c'est plus facile que i3. Et oui, i3 est ce qu'on appel un `gestionnaire de fenêtres`. Du coup, il affiche juste des trucs, et en plus tu peux même pas te servir de ta souris dessus. (Calme toi, t'a toujours une souris pour les autres logiciels, juste qu'i3 s'en sert pas). En plus, il vient avec aucun paquet presque (Pas de gestinnaire de fichier, pas de visionneur d'images, etc).
+
+En plus, si t'es sur i3, et qu'il t'arrive un truc, les APE et le bocal ont le droit de te dire qu'ils vont pas t'aider.
+
+Je te conseille de t'intéresser à i3 après la piscine, et de toujours garder Xfce de côté.
+
+## Je suis un hipster, je le veux maintenant. Je fais comment?
+
+Regarde le readme `questions.md`.
