@@ -50,6 +50,6 @@ Toujours pas? La vous pouvez demander.
 ## Je veux installer un paquet, je fais comment?
 
 Pour installer un paquet, vous avez besoin de `YUM`, qui lui-même demande les permissions admin (Cf. linux101.md)
-La syntaxe est `sudo yum install paquet` pour un paquet sur un repo. Si jamais vous avez un fichier RPM, c'est `sudo yum install LeCheminDeVotre.rpm`.
+La syntaxe est `sudo dnf install paquet` pour un paquet sur un repo. Si jamais vous avez un fichier RPM, c'est `sudo dnf install LeCheminDeVotre.rpm`.
 
 Pour retirer un paquet, `sudo dnf remove NomDuPaquet`.
