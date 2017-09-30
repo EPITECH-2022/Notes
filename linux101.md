@@ -14,13 +14,13 @@ Linux, c'est ce qu'on appel un kernel. En gros, c'est la partie qui s'occupe de 
 Une distribution, c'est un système d'exploitation "complet", basé sur le kernel Linux. En gros, ils prennent Linux, ils ajoutent les drivers, les logiciels, les utilitaires, les ressources, etc...
 
 Et normalement, vous vous posez la question de la différence entre les distributions. Facile, une distribution ne vient pas avec le même contenu qu'une autre.
-Exemple très simple, Fedora vient avec `YUM` comme gestionnaire de paquets (On va revenir sur les paquets), tandis que Debian vient avec `APT`.
+Exemple très simple, Fedora vient avec `DNF` comme gestionnaire de paquets (On va revenir sur les paquets), tandis que Debian vient avec `APT`.
 
 De plus, certaines distributions descendent d'autres. Des fois, avec beaucoup de différence (Ubuntu descend de Debian), des fois, vraiment pas beaucoup ([Hannah Montana Linux](http://hannahmontana.sourceforge.net) Descend de Kubuntu, mais inclut juste des thèmes supplémentaires pour KDE)
 
 ## Très bien. Et cette histoire de paquet alors?
 
-Un paquet, c'est un logiciel ou une bibliothèque, avec sa documentation. En général, les paquets sont pris en charge par le fameux gestionnaire de paquet (`YUM` pour Fedora).
+Un paquet, c'est un logiciel ou une bibliothèque, avec sa documentation. En général, les paquets sont pris en charge par le fameux gestionnaire de paquet (`DNF` pour Fedora).
 Le gestionnaire s'occupe de le télécharger, de le lire, de le vérifier, de vérifier ses dépendances (et de les résoudres), et de l'installer.
 Les paquets Fedora sont au format .rpm (Pour RedHat Packet Manager, the more you know). La plupart des paquets qui vous intéressent sont sur un "repo" (repository, dépot en français).
 Certains paquets, par contre, ne seront pas sur un dépot, mais proposés ailleurs, seuls. Pas de panique, c'est toujours aussi facile de les installer, via la commande `RPM`.
@@ -45,7 +45,7 @@ Non.
 ## Bon très bien. Mais on est admin du coup, ça change quoi?
 
 On va prendre un exemple simple. Vous voulez installer Dofus sur votre machine.
-root, lui, il a juste à faire `yum install dofus`.
+root, lui, il a juste à faire `dnf install dofus`.
 Vous, si vous faite ça, on vous dit non. Parce que vous avez pas les bon privilèges.
 Pour ça, deux moyen s'offre à vous:
 
@@ -56,7 +56,7 @@ Une fois la commande terminée, vous perdez vos droits. Pas de risque de faire d
 N'oubliez juste pas qu'un grand pouvoir implique de grandes responsabilités.
 Mais sinon ça me va.
 
-Pour notre exemple, ça donnerait `sudo yum install dofus`
+Pour notre exemple, ça donnerait `sudo dnf install dofus`
 
 ##### Devenir root
 
