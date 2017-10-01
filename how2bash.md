@@ -53,3 +53,15 @@ Pour installer un paquet, vous avez besoin de `YUM`, qui lui-même demande les p
 La syntaxe est `sudo dnf install paquet` pour un paquet sur un repo. Si jamais vous avez un fichier RPM, c'est `sudo dnf install LeCheminDeVotre.rpm`.
 
 Pour retirer un paquet, `sudo dnf remove NomDuPaquet`.
+
+## Editeur de texte, je t'invoque!
+
+L'éditeur de texte par défaut à EPITECH est Emacs. `emacs fichier` pour l'appeler. Si vous faite comme ceci, vous appelez la version graphique. Vous voulez la version terminal? `emacs -nw fichier`.
+Vous pouvez aussi utiliser vim, `vim fichier`.
+
+## Comment qu'on compile?
+
+Il faut utiliser `gcc`.
+Pour faciliter vos test, je vous recommande d'utiliser cette syntaxe: `gcc file1 file2 ... -o out`
+L'argument -o permet de choisir le nom du binaire à la sortie (ici, `out`).
+Pour ensuite tester, faite `./out`

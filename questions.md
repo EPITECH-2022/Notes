@@ -22,3 +22,12 @@ Technique proposé par Tina
 # Comment installer i3?
 
 Tina à proposé sa config i3 ainsi qu'un tuto sur [son GitHub](https://github.com/skielred/Dotfiles)
+
+# Le bureau de mon Xfce est tout gris, je peux pas faire de clic droit desssus, j'ai plus d'îcones, ALED
+
+Calme toi. C'est facile à réparer.
+`rm -rf ~/.cache/sessions/`puis `shutdown -r now` pour redémarrer.
+
+# Moi c'est l'inverse, j'ai que le bureau, pas le reste, je fais quoi?
+
+Ouvre un tty via `Ctrl+Alt+F2`, login avec ton utilisateur et ton mot de passe, tu tape `xfce4-panel`, puis revient avec `Ctrl+Alt+F1
