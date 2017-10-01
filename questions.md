@@ -27,3 +27,7 @@ Tina à proposé sa config i3 ainsi qu'un tuto sur [son GitHub](https://github.c
 
 Calme toi. C'est facile à réparer.
 `rm -rf ~/.cache/sessions/`puis `shutdown -r now` pour redémarrer.
+
+# Moi c'est l'inverse, j'ai que le bureau, pas le reste, je fais quoi?
+
+Ouvre un tty via `Ctrl+Alt+F2`, login avec ton utilisateur et ton mot de passe, tu tape `xfce4-panel`, puis revient avec `Ctrl+Alt+F1
