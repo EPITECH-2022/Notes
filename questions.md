@@ -30,4 +30,4 @@ Calme toi. C'est facile à réparer.
 
 # Moi c'est l'inverse, j'ai que le bureau, pas le reste, je fais quoi?
 
-Ouvre un tty via `Ctrl+Alt+F2`, login avec ton utilisateur et ton mot de passe, tu tape `xfce4-panel`, puis revient avec `Ctrl+Alt+F1
+Ouvre un tty via `Ctrl+Alt+F2`, login avec ton utilisateur et ton mot de passe, tu tape `xfce4-panel`, puis revient avec `Ctrl+Alt+F1` 
